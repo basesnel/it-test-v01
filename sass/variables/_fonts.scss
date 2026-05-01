@@ -1,0 +1,9 @@
+// Fonts:
+$fonts: (
+  "Mulish": "Mulish",
+  "Inter": "Inter",
+);
+
+@function getFont($key) {
+  @return map-get($fonts, $key);
+}
