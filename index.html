@@ -9,7 +9,20 @@
     <header>
       <div role="presentation">
         <div>
-          <a href="#"><img src="./images/header/logo-x2.png" alt="logo" /></a>
+          <a href="#">
+            <img
+              srcset="
+                ./images/header/logo-1x.png 1x,
+                ./images/header/logo-2x.png 2x,
+                ./images/header/logo-1x.png 3x
+              "
+              sizes="500px"
+              alt="Логотип"
+              width="70"
+              height="80"
+              class="image"
+            />
+          </a>
         </div>
         <nav>
           <ul>
@@ -27,7 +40,7 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="hero">
         <div role="presentation">
           <div>
             <ul>
@@ -41,13 +54,78 @@
             </p>
             <button>Забронювати місце в шатлі</button>
           </div>
-          <div>
+          <div class="arias">
             <ul>
               <li><a href="#">🚀 Ракетобудування</a></li>
               <li><a href="#">🛰️ Супутникові технології</a></li>
               <li><a href="#">🧪 Марсіанська біологія</a></li>
               <li><a href="#">🌌 Астрономія</a></li>
             </ul>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div role="presentation">
+          <h2>Переваги</h2>
+          <ul>
+            <li>
+              <a href="#">
+                <div>
+                  <p>
+                    <span>15% знижка</span>при бронюванні до 7 червня або на два
+                    тижні одночасно
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div>
+                  <p>Безпечний модуль у кратері на Марсі.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div>
+                  <p>Тематичні зміни адаптивні до інтересів кожної дитини.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div>
+                  <p>Зручні каюти та збалансоване харчування.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div role="presentation">
+          <div>
+            <h2>Табір, що відкриває космічні горизонти для кожної дитини</h2>
+            <p>
+              За 14 днів у Space Explorers ваша дитина отримає унікальний
+              досвід: від конструювання ракет до вивчення марсіанського ґрунту.
+              Ми поєднали науку, технології, інженерію та мистецтво, щоб
+              навчання було захопливою космічною одіссеєю.
+            </p>
+          </div>
+          <div>
+            <img
+              srcset="
+                ./images/about/about-1x.png 1x,
+                ./images/about/about-2x.png 2x,
+                ./images/about/about-3x.png 3x
+              "
+              sizes="500px"
+              alt="Космонавт на Марсі"
+              width="780"
+              height="500"
+              class="image"
+            />
           </div>
         </div>
       </section>
