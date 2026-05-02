@@ -15,8 +15,19 @@
   }
 
   &--hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
     padding: 56px 250px 155px;
-    background-color: getColor("foregroundFirst");
+    // background-color: getColor("foregroundFirst");
+    background-image:
+      url("../images/hero/mask-bg-1x.png"),
+      linear-gradient(getColor("foregroundFirst"), getColor("foregroundFirst"));
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+      center center,
+      center center;
+    background-size: cover, cover;
   }
 
   &--benefit {

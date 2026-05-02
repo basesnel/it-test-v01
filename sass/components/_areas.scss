@@ -1,0 +1,50 @@
+.areas {
+  display: flex;
+  align-items: end;
+  width: 704px;
+  height: 505px;
+  padding: 0 0 30px 0;
+  transform: translateX(49px);
+
+  background-image:
+    url("../images/hero/areas-bg-1x.png"), url("../images/hero/union-bg-1x.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    center center,
+    center bottom;
+  background-size: cover, 90%;
+
+  @include retina-2 {
+    background-image:
+      url("../images/hero/areas-bg-2x.png"),
+      url("../images/hero/union-bg-2x.png");
+  }
+
+  @include retina-3 {
+    background-image:
+      url("../images/hero/areas-bg-3x.png"),
+      url("../images/hero/union-bg-3x.png");
+  }
+
+  &__list {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;
+    transform: translateX(38px);
+  }
+
+  &__link {
+    display: block;
+    padding: 12px;
+    border-radius: 200px;
+    line-height: 1.4;
+    background-color: getColor("background");
+
+    &:hover {
+      color: getColor("accent");
+      transition: color $tns-time $tns-func;
+    }
+  }
+}

@@ -3,8 +3,11 @@
 @import "variables/fonts";
 
 @import "base/base";
+@import "base/mixins";
 
 @import "components/section";
 @import "components/container";
 @import "components/nav";
 @import "components/menu";
+@import "components/title";
+@import "components/areas";

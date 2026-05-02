@@ -1,0 +1,47 @@
+.title {
+  width: 531px;
+
+  &__info {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    display: block;
+    padding: 12px 24px;
+    border-radius: 200px;
+    line-height: 1.4;
+    font-weight: 700;
+    background-color: getColor("background");
+
+    &:hover {
+      color: getColor("accent");
+      transition: color $tns-time $tns-func;
+    }
+  }
+
+  &__header {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    margin-bottom: 36px;
+  }
+
+  &__button {
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 19px 36px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    letter-spacing: 0;
+    background-color: getColor("buttonBackground");
+    color: getColor("background");
+  }
+}
