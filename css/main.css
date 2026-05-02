@@ -106,6 +106,10 @@ img {
 .container--benefit {
   padding: 48px 250px 0;
 }
+.container--about {
+  display: flex;
+  gap: 36px;
+}
 .container--program {
   background-color: rgb(247, 247, 249);
 }
@@ -282,4 +286,14 @@ img {
 }
 .benefits__item:nth-child(3) .benefits__text {
   width: 250px;
+}
+
+.about {
+  flex-basis: 484px;
+}
+.about__title {
+  margin-bottom: 24px;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.21;
 }/*# sourceMappingURL=main.css.map */

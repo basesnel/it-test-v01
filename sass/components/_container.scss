@@ -52,6 +52,11 @@
     padding: 48px 250px 0;
   }
 
+  &--about {
+    display: flex;
+    gap: 36px;
+  }
+
   &--program {
     background-color: getColor("foregroundSecond");
   }
