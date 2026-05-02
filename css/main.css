@@ -65,6 +65,7 @@ img {
 .container--header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .container--zero-top-bottom {
   padding: 0 250px;
@@ -85,12 +86,13 @@ img {
 
 .nav {
   display: flex;
-  gap: 252px;
+  gap: 270px;
   align-items: center;
   font-family: "Inter";
   font-size: 14px;
   font-weight: 500;
   line-height: 1.21;
+  transform: translateY(-7px);
 }
 
 .menu {
