@@ -1,0 +1,36 @@
+.menu {
+  display: flex;
+  gap: 4px;
+
+  &__link {
+    display: block;
+    padding: 9px 12px;
+    border-radius: 8px;
+
+    &--accent {
+      background-color: getColor("accent");
+      color: getColor("background");
+    }
+
+    &:hover {
+      color: getColor("accent");
+      transition: color $tns-time $tns-func;
+    }
+  }
+
+  &__link--option {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 10px;
+    height: 6px;
+  }
+}
+
+.menu__link--option:hover {
+  background-color: getColor("background");
+  transition: background-color $tns-time $tns-func;
+}

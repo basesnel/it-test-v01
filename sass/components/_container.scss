@@ -4,6 +4,11 @@
   padding: 120px 250px;
   border-radius: 72px;
 
+  &--header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &--zero-top-bottom {
     padding: 0 250px;
   }

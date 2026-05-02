@@ -22,7 +22,10 @@
   </head>
   <body>
     <header>
-      <div role="presentation" class="container container--zero-top-bottom">
+      <div
+        role="presentation"
+        class="container container--zero-top-bottom container--header"
+      >
         <div>
           <a href="#">
             <img
@@ -35,21 +38,66 @@
               alt="Логотип"
               width="70"
               height="80"
-              class="image"
             />
           </a>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#">Програми</a></li>
-            <li><a href="#">Галерея</a></li>
-            <li><a href="#">Наша місія</a></li>
-            <li><a href="#">Зв'язатися з нами</a></li>
+        <nav class="nav">
+          <ul class="menu">
+            <li>
+              <a
+                class="menu__link menu__link--option menu__link--accent"
+                href="#"
+                >Програми
+                <svg class="menu__icon" focusable="false" aria-hidden="true">
+                  <use href="./images/icons.svg#icon-option"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#">Галерея</a>
+            </li>
+            <li>
+              <a class="menu__link menu__link--option" href="#"
+                >Наша місія
+                <svg class="menu__icon" focusable="false" aria-hidden="true">
+                  <use href="./images/icons.svg#icon-option"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu__link" href="#">Медіа</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Зв'язатися з нами</a>
+            </li>
           </ul>
-          <ul>
-            <li><a href="#">Дніпро</a></li>
-            <li><a href="#" lang="en">UA</a></li>
-            <li><a href="tel:+380567673767">+38 (056) 767 37 67</a></li>
+          <ul class="menu">
+            <li>
+              <a class="menu__link menu__link--option" href="#"
+                >Дніпро
+                <svg class="menu__icon" focusable="false" aria-hidden="true">
+                  <use href="./images/icons.svg#icon-option"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="menu__link menu__link--option" href="#" lang="en"
+                >UA
+                <svg class="menu__icon" focusable="false" aria-hidden="true">
+                  <use href="./images/icons.svg#icon-option"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="menu__link menu__link--option menu__link--accent"
+                href="tel:+380567673767"
+                >+38 (056) 767 37 67
+                <svg class="menu__icon" focusable="false" aria-hidden="true">
+                  <use href="./images/icons.svg#icon-option"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
