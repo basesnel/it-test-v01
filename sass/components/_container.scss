@@ -28,6 +28,24 @@
       center center,
       center center;
     background-size: cover, cover;
+
+    @include retina-2 {
+      background-image:
+        url("../images/hero/mask-bg-2x.png"),
+        linear-gradient(
+          getColor("foregroundFirst"),
+          getColor("foregroundFirst")
+        );
+    }
+
+    @include retina-3 {
+      background-image:
+        url("../images/hero/mask-bg-3x.png"),
+        linear-gradient(
+          getColor("foregroundFirst"),
+          getColor("foregroundFirst")
+        );
+    }
   }
 
   &--benefit {

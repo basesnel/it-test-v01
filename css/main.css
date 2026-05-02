@@ -80,6 +80,16 @@ img {
   background-position: center center, center center;
   background-size: cover, cover;
 }
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .container--hero {
+    background-image: url("../images/hero/mask-bg-2x.png"), linear-gradient(rgb(228, 223, 255), rgb(228, 223, 255));
+  }
+}
+@media (min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+  .container--hero {
+    background-image: url("../images/hero/mask-bg-3x.png"), linear-gradient(rgb(228, 223, 255), rgb(228, 223, 255));
+  }
+}
 .container--benefit {
   padding: 48px 250px 0;
 }
