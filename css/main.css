@@ -33,14 +33,25 @@ label {
   cursor: pointer;
 }
 
+.section {
+  margin-bottom: 120px;
+}
+
 .container {
   width: 1800px;
   margin: 0 auto;
-  padding: 0 250px;
+  padding: 120px 250px;
   border-radius: 72px;
 }
+.container--zero-top-bottom {
+  padding: 0 250px;
+}
 .container--hero {
+  padding: 56px 250px 155px;
   background-color: rgb(228, 223, 255);
+}
+.container--benefit {
+  padding: 48px 250px 0;
 }
 .container--program {
   background-color: rgb(247, 247, 249);

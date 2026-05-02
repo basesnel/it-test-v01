@@ -1,11 +1,20 @@
 .container {
   width: 1800px;
   margin: 0 auto;
-  padding: 0 250px;
+  padding: 120px 250px;
   border-radius: 72px;
 
+  &--zero-top-bottom {
+    padding: 0 250px;
+  }
+
   &--hero {
+    padding: 56px 250px 155px;
     background-color: getColor("foregroundFirst");
+  }
+
+  &--benefit {
+    padding: 48px 250px 0;
   }
 
   &--program {
