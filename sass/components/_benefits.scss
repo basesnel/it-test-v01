@@ -1,0 +1,57 @@
+.benefits {
+  &__title {
+    @extend %visually-hidden;
+  }
+
+  &__list {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__item {
+    flex-basis: 319px;
+    border-radius: 24px;
+    padding: 24px;
+    background-color: getColor("foregroundFourth");
+
+    &:nth-child(1) {
+      background-color: getColor("foregroundFifth");
+      color: getColor("background");
+    }
+  }
+
+  &__emfasize {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 1.42;
+  }
+
+  &__decor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    background-color: getColor("foregroundThird");
+    color: getColor("background");
+  }
+
+  &__icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+.benefits__text {
+  .benefits__item:nth-child(2) & {
+    width: 170px;
+  }
+
+  .benefits__item:nth-child(3) & {
+    width: 250px;
+  }
+}
