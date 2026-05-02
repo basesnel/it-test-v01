@@ -1,0 +1,18 @@
+.container {
+  width: 1800px;
+  margin: 0 auto;
+  padding: 0 250px;
+  border-radius: 72px;
+
+  &--hero {
+    background-color: getColor("foregroundFirst");
+  }
+
+  &--program {
+    background-color: getColor("foregroundSecond");
+  }
+
+  &--prices {
+    background-color: getColor("foregroundThird");
+  }
+}

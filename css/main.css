@@ -31,4 +31,20 @@ ul {
 button,
 label {
   cursor: pointer;
+}
+
+.container {
+  width: 1800px;
+  margin: 0 auto;
+  padding: 0 250px;
+  border-radius: 72px;
+}
+.container--hero {
+  background-color: rgb(228, 223, 255);
+}
+.container--program {
+  background-color: rgb(247, 247, 249);
+}
+.container--prices {
+  background-color: rgb(17, 18, 23);
 }/*# sourceMappingURL=main.css.map */
