@@ -19,6 +19,10 @@
 
   &__item {
     margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   &__calendar {
@@ -95,6 +99,10 @@
 
   &__item {
     margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   &__itemtxt {

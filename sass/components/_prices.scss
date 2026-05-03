@@ -1,0 +1,105 @@
+.prices {
+  &__title {
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: getColor("background");
+  }
+
+  &__block {
+    display: flex;
+  }
+}
+
+.reservation {
+  width: 638px;
+  border-radius: 36px;
+  padding: 36px;
+  background-color: getColor("background");
+
+  &__title {
+    margin-bottom: 31px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.125;
+  }
+
+  &__list {
+    padding-bottom: 31px;
+    border-bottom: 1px solid getColor("borderBottom");
+    margin-bottom: 31px;
+  }
+
+  &__item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.56;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__def {
+    display: inline-block;
+    width: 115px;
+    color: getColor("textThird");
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  &__costs {
+    text-align: right;
+  }
+
+  &__crossedprice {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.28;
+    color: getColor("textThird");
+    text-decoration: line-through;
+  }
+
+  &__cost {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  &__uah {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.27;
+  }
+
+  &__button {
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    padding: 16px 36px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.22;
+    letter-spacing: 0;
+    background-color: getColor("foregroundSixth");
+    color: getColor("background");
+  }
+}
+
+.form {
+  width: 472px;
+}
