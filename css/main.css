@@ -569,4 +569,67 @@ img {
 .faq__icon {
   width: 12px;
   height: 12px;
+}
+
+.footer {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fff;
+  background-color: rgb(17, 18, 23);
+}
+.footer__block {
+  display: flex;
+}
+
+.step1 {
+  width: 200px;
+}
+.step1__logo {
+  margin-bottom: 34px;
+}
+.step1__text {
+  margin-bottom: 24px;
+}
+.step1__list {
+  display: flex;
+  justify-content: space-around;
+}
+.step1__link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(63, 75, 94);
+}
+.step1__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.step2 {
+  width: 294px;
+  padding-top: 36px;
+}
+.step2__text {
+  margin-bottom: 16px;
+}
+.step2__list {
+  display: flex;
+  gap: 36px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+.step2__list1 {
+  width: 130px;
+}
+.step2__item {
+  margin-bottom: 14px;
+}
+.step2__link:hover, .step2__link:focus {
+  color: rgb(72, 80, 236);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */

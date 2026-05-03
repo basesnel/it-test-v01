@@ -486,95 +486,167 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div role="presentation" class="container container--zero-top-bottom">
-        <div>
-          <div>
-            <a href="#">
-              <img
-                srcset="
-                  ./images/header/logo-1x.png 1x,
-                  ./images/header/logo-2x.png 2x,
-                  ./images/header/logo-1x.png 3x
-                "
-                sizes="500px"
-                alt="Логотип"
-                width="70"
-                height="80"
-                class="image"
-              />
-            </a>
+        <div class="footer__block">
+          <div class="step1">
+            <div class="step1__logo">
+              <a href="#">
+                <img
+                  srcset="
+                    ./images/header/logo-1x.png 1x,
+                    ./images/header/logo-2x.png 2x,
+                    ./images/header/logo-1x.png 3x
+                  "
+                  sizes="500px"
+                  alt="Логотип"
+                  width="70"
+                  height="80"
+                  class="image"
+                />
+              </a>
+            </div>
+            <p class="step1__text">
+              Освітній холдинг ITSTEP - освіта, яка надає нові можливості
+            </p>
+            <ul class="step1__list">
+              <li class="step1__item">
+                <a
+                  href="https://www.instagram.com/"
+                  aria-label="Ласкаво запрошуємо на сторінку інстаграм"
+                  class="step1__link"
+                >
+                  <svg focusable="false" aria-hidden="true" class="step1__icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="step1__item">
+                <a
+                  href="https://www.facebook.com/"
+                  aria-label="Ласкаво запрошуємо на сторінку фуйсбуку"
+                  class="step1__link"
+                >
+                  <svg focusable="false" aria-hidden="true" class="step1__icon">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="step1__item">
+                <a
+                  href="https://www.linkedin.com/"
+                  aria-label="Ласкаво запрошуємо на сторінку лінкедін"
+                  class="step1__link"
+                >
+                  <svg focusable="false" aria-hidden="true" class="step1__icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="step1__item">
+                <a
+                  href="https://www.youtube.com/"
+                  aria-label="Ласкаво запрошуємо на сторінку ютуб"
+                  class="step1__link"
+                >
+                  <svg focusable="false" aria-hidden="true" class="step1__icon">
+                    <use href="./images/icons.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
-          <p>Освітній холдинг ITSTEP - освіта, яка надає нові можливості</p>
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/">
-                <svg><use href="./images/icons.svg#icon-instagram"></use></svg>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/">
-                <svg><use href="./images/icons.svg#icon-facebook"></use></svg>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/">
-                <svg><use href="./images/icons.svg#icon-linkedin"></use></svg>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/">
-                <svg><use href="./images/icons.svg#icon-youtube"></use></svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2>Всі напрямки</h2>
-          <ul>
-            <li><a href="#">Професійна освіта</a></li>
-            <li><a href="#">Курси для дорослих</a></li>
-            <li><a href="#">Курси для дітей</a></li>
-            <li><a href="#">Клуби</a></li>
-            <li><a href="#">Табори</a></li>
-            <li><a href="#">Університет</a></li>
-            <li><a href="#">Коледж</a></li>
-            <li><a href="#">Школа</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Про Академію</h2>
-          <ul>
-            <li><a href="#">Про Академію</a></li>
-            <li><a href="#">Історія успіху</a></li>
-            <li><a href="#">Вакансії</a></li>
-            <li><a href="#">Відгуки</a></li>
-            <li><a href="#">Презентація таборів від Step Travel</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Контакти</h2>
-          <p>вул. Жилянська, 128/28</p>
-          <ul>
-            <li><a href="tel:+380445372260">+38 (044) 537-22-60</a></li>
-            <li><a href="tel:+380445372260">+38 (044) 537-22-60</a></li>
-            <li><a href="tel:+380737978820">+38 (073) 797-88-20</a></li>
-            <li><a href="tel:+380737978820">+38 (073) 797-88-20</a></li>
-          </ul>
-          <button>Замовити дзвінок</button>
-          <p>Або напишіть у месенджер</p>
-          <ul>
-            <li>
-              <a href="#">
-                <svg><use href="./images/icons.svg#icon-telegram"></use></svg>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <svg><use href="./images/icons.svg#icon-viber"></use></svg>
-              </a>
-            </li>
-          </ul>
+          <div class="step2">
+            <p class="step2__text">Всі напрямки</p>
+            <ul class="step2__list">
+              <li>
+                <ul class="step2__list1">
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Професійна освіта</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Курси для дорослих</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Курси для дітей</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Клуби</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Табори</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Університет</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Коледж</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Школа</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="step2">
+            <p class="step2__text">Про Академію</p>
+            <ul class="step2__list">
+              <li>
+                <ul>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Про Академію</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Історія успіху</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Вакансії</a>
+                  </li>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">Відгуки</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li class="step2__item">
+                    <a href="#" class="step2__link">
+                      Презентація таборів від Step Travel
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>Контакти</p>
+            <p>вул. Жилянська, 128/28</p>
+            <ul>
+              <li><a href="tel:+380445372260">+38 (044) 537-22-60</a></li>
+              <li><a href="tel:+380445372260">+38 (044) 537-22-60</a></li>
+              <li><a href="tel:+380737978820">+38 (073) 797-88-20</a></li>
+              <li><a href="tel:+380737978820">+38 (073) 797-88-20</a></li>
+            </ul>
+            <button>Замовити дзвінок</button>
+            <p>Або напишіть у месенджер</p>
+            <ul>
+              <li>
+                <a href="#">
+                  <svg><use href="./images/icons.svg#icon-telegram"></use></svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg><use href="./images/icons.svg#icon-viber"></use></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
           <p>&copy; 1999-2025 Комп'ютерна Академія ШАГ</p>

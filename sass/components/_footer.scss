@@ -1,0 +1,74 @@
+.footer {
+  font-size: 14px;
+  line-height: 1.43;
+  color: getColor("background");
+  background-color: getColor("foregroundThird");
+
+  &__block {
+    display: flex;
+  }
+}
+
+.step1 {
+  width: 200px;
+
+  &__logo {
+    margin-bottom: 34px;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: getColor("foregraundsocials");
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.step2 {
+  width: 294px;
+  padding-top: 36px;
+
+  &__text {
+    margin-bottom: 16px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 36px;
+    padding-top: 16px;
+    border-top: 1px solid getColor("borderstep");
+    font-weight: 400;
+    color: getColor("borderstep");
+  }
+
+  &__list1 {
+    width: 130px;
+  }
+
+  &__item {
+    margin-bottom: 14px;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: getColor("accent");
+    transition: color $tns-time $tns-func;
+  }
+}
