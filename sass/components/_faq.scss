@@ -29,6 +29,15 @@
     border: none;
     border-radius: 8px;
     background-color: getColor("background");
+
+    &:hover,
+    &:focus {
+      background-color: getColor("accent");
+      color: getColor("background");
+      transition:
+        color $tns-time $tns-func,
+        background-color $tns-time $tns-func;
+    }
   }
 
   &__icon {

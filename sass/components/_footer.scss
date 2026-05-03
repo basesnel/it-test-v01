@@ -36,6 +36,15 @@
     justify-content: center;
     align-items: center;
     background-color: getColor("foregraundsocials");
+
+    &:hover,
+    &:focus {
+      background-color: getColor("background");
+      color: getColor("accent");
+      transition:
+        color $tns-time $tns-func,
+        background-color $tns-time $tns-func;
+    }
   }
 
   &__icon {

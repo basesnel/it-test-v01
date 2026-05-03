@@ -98,6 +98,15 @@
     letter-spacing: 0;
     background-color: getColor("foregroundSixth");
     color: getColor("background");
+
+    &:hover,
+    &:focus {
+      background-color: getColor("foregroundFirst");
+      color: getColor("foregroundSixth");
+      transition:
+        color $tns-time $tns-func,
+        background-color $tns-time $tns-func;
+    }
   }
 }
 
@@ -144,6 +153,15 @@
     letter-spacing: 0;
     background-color: getColor("foregroundThird");
     color: getColor("background");
+
+    &:hover,
+    &:focus {
+      background-color: getColor("foregroundFirst");
+      color: getColor("foregroundSixth");
+      transition:
+        color $tns-time $tns-func,
+        background-color $tns-time $tns-func;
+    }
   }
 
   &__privacy {

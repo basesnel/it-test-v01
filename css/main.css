@@ -495,6 +495,11 @@ img {
   background-color: rgb(124, 89, 242);
   color: #fff;
 }
+.reservation__button:hover, .reservation__button:focus {
+  background-color: rgb(228, 223, 255);
+  color: rgb(124, 89, 242);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .form {
   width: 472px;
@@ -538,6 +543,11 @@ img {
   letter-spacing: 0;
   background-color: rgb(17, 18, 23);
   color: #fff;
+}
+.form__button:hover, .form__button:focus {
+  background-color: rgb(228, 223, 255);
+  color: rgb(124, 89, 242);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__privacy {
   text-align: center;
@@ -586,6 +596,11 @@ img {
   border-radius: 8px;
   background-color: #fff;
 }
+.faq__button:hover, .faq__button:focus {
+  background-color: rgb(72, 80, 236);
+  color: #fff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .faq__icon {
   width: 12px;
   height: 12px;
@@ -625,6 +640,11 @@ img {
   justify-content: center;
   align-items: center;
   background-color: rgb(63, 75, 94);
+}
+.step1__link:hover, .step1__link:focus {
+  background-color: #fff;
+  color: rgb(72, 80, 236);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .step1__icon {
   width: 20px;
