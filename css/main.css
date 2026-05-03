@@ -579,6 +579,9 @@ img {
 }
 .footer__block {
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .step1 {
@@ -610,26 +613,98 @@ img {
 
 .step2 {
   width: 294px;
-  padding-top: 36px;
 }
 .step2__text {
+  padding: 36px 0 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   margin-bottom: 16px;
 }
 .step2__list {
   display: flex;
-  gap: 36px;
-  padding-top: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  justify-content: space-between;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.4);
+}
+.step2__list--phones {
+  margin-bottom: 40px;
 }
 .step2__list1 {
   width: 130px;
 }
+.step2__list1--phones {
+  width: 145px;
+}
 .step2__item {
   margin-bottom: 14px;
+}
+.step2__item--phones {
+  margin-bottom: 0;
 }
 .step2__link:hover, .step2__link:focus {
   color: rgb(72, 80, 236);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.step2__addresses {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.step2__addresses:hover, .step2__addresses:focus {
+  color: rgb(72, 80, 236);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.step2__option {
+  width: 10px;
+  height: 6px;
+}
+.step2__button {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 36px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.57;
+  background-color: rgb(190, 245, 65);
+}
+
+.messengers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.messengers__list {
+  display: flex;
+  gap: 12px;
+}
+.messengers__link {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.messengers__link--telegram {
+  background-color: rgb(95, 132, 246);
+}
+.messengers__link--viber {
+  background-color: rgb(124, 89, 242);
+}
+.messengers__icon {
+  width: 24px;
+  height: 24px;
+}
+.messengers__icon--viber {
+  width: 22px;
+  height: 23px;
+}
+
+.copyright {
+  padding: 24px 0;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

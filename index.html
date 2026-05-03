@@ -557,7 +557,7 @@
             </ul>
           </div>
           <div class="step2">
-            <p class="step2__text">Всі напрямки</p>
+            <h2 class="step2__text">Всі напрямки</h2>
             <ul class="step2__list">
               <li>
                 <ul class="step2__list1">
@@ -579,7 +579,7 @@
                 </ul>
               </li>
               <li>
-                <ul>
+                <ul class="step2__list1">
                   <li class="step2__item">
                     <a href="#" class="step2__link">Університет</a>
                   </li>
@@ -594,10 +594,10 @@
             </ul>
           </div>
           <div class="step2">
-            <p class="step2__text">Про Академію</p>
+            <h2 class="step2__text">Про Академію</h2>
             <ul class="step2__list">
               <li>
-                <ul>
+                <ul class="step2__list1">
                   <li class="step2__item">
                     <a href="#" class="step2__link">Про Академію</a>
                   </li>
@@ -613,7 +613,7 @@
                 </ul>
               </li>
               <li>
-                <ul>
+                <ul class="step2__list1">
                   <li class="step2__item">
                     <a href="#" class="step2__link">
                       Презентація таборів від Step Travel
@@ -623,32 +623,70 @@
               </li>
             </ul>
           </div>
-          <div>
-            <p>Контакти</p>
-            <p>вул. Жилянська, 128/28</p>
-            <ul>
-              <li><a href="tel:+380445372260">+38 (044) 537-22-60</a></li>
-              <li><a href="tel:+380445372260">+38 (044) 537-22-60</a></li>
-              <li><a href="tel:+380737978820">+38 (073) 797-88-20</a></li>
-              <li><a href="tel:+380737978820">+38 (073) 797-88-20</a></li>
-            </ul>
-            <button>Замовити дзвінок</button>
-            <p>Або напишіть у месенджер</p>
-            <ul>
+          <div class="step2">
+            <h2 class="step2__text">Контакти</h2>
+            <a class="step2__addresses"
+              >вул. Жилянська, 128/28
+              <svg class="step2__option" focusable="false" aria-hidden="true">
+                <use href="./images/icons.svg#icon-option"></use>
+              </svg>
+            </a>
+            <ul class="step2__list step2__list--phones">
               <li>
-                <a href="#">
-                  <svg><use href="./images/icons.svg#icon-telegram"></use></svg>
-                </a>
+                <ul class="step2__list1 step2__list1--phones">
+                  <li class="step2__item step2__item--phones">
+                    <a href="tel:+380445372260" class="step2__link"
+                      >+38 (044) 537-22-60</a
+                    >
+                  </li>
+                  <li class="step2__item step2__item--phones">
+                    <a href="tel:+380445372260" class="step2__link"
+                      >+38 (044) 537-22-60</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li>
-                <a href="#">
-                  <svg><use href="./images/icons.svg#icon-viber"></use></svg>
-                </a>
+                <ul class="step2__list1 step2__list1--phones">
+                  <li class="step2__item step2__item--phones">
+                    <a href="tel:+380737978820" class="step2__link"
+                      >+38 (073) 797-88-20</a
+                    >
+                  </li>
+                  <li class="step2__item step2__item--phones">
+                    <a href="tel:+380737978820" class="step2__link"
+                      >+38 (073) 797-88-20</a
+                    >
+                  </li>
+                </ul>
               </li>
             </ul>
+            <button class="step2__button">Замовити дзвінок</button>
+            <div class="messengers">
+              <p class="messengers__text">Або напишіть у месенджер</p>
+              <ul class="messengers__list">
+                <li>
+                  <a
+                    href="#"
+                    class="messengers__link messengers__link--telegram"
+                  >
+                    <svg class="messengers__icon">
+                      <use href="./images/icons.svg#icon-telegram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="messengers__link messengers__link--viber">
+                    <svg class="messengers__icon messengers__icon--viber">
+                      <use href="./images/icons.svg#icon-viber"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="copyright">
           <p>&copy; 1999-2025 Комп'ютерна Академія ШАГ</p>
         </div>
       </div>
