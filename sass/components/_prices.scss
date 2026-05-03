@@ -10,6 +10,7 @@
 
   &__block {
     display: flex;
+    gap: 24px;
   }
 }
 
@@ -102,4 +103,53 @@
 
 .form {
   width: 472px;
+  color: getColor("background");
+  background-color: getColor("foregroundSixth");
+  border-radius: 36px;
+  padding: 36px;
+
+  &__title {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.44;
+  }
+
+  &__input {
+    border: none;
+    width: 100%;
+    padding: 13px 20px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+
+    &::placeholder {
+      color: getColor("textThird");
+    }
+  }
+
+  &__button {
+    margin-bottom: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    padding: 19px 36px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.22;
+    letter-spacing: 0;
+    background-color: getColor("foregroundThird");
+    color: getColor("background");
+  }
+
+  &__privacy {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.67;
+  }
 }

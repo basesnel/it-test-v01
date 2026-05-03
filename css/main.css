@@ -397,6 +397,7 @@ img {
 }
 .prices__block {
   display: flex;
+  gap: 24px;
 }
 
 .reservation {
@@ -477,4 +478,50 @@ img {
 
 .form {
   width: 472px;
+  color: #fff;
+  background-color: rgb(124, 89, 242);
+  border-radius: 36px;
+  padding: 36px;
+}
+.form__title {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.form__text {
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.44;
+}
+.form__input {
+  border: none;
+  width: 100%;
+  padding: 13px 20px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+}
+.form__input::-moz-placeholder {
+  color: rgb(102, 102, 102);
+}
+.form__input::placeholder {
+  color: rgb(102, 102, 102);
+}
+.form__button {
+  margin-bottom: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  padding: 19px 36px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: 0;
+  background-color: rgb(17, 18, 23);
+  color: #fff;
+}
+.form__privacy {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.67;
 }/*# sourceMappingURL=main.css.map */
