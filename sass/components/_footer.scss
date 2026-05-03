@@ -125,6 +125,12 @@
     font-weight: 700;
     line-height: 1.57;
     background-color: getColor("greenButton");
+
+    &:hover,
+    &:focus {
+      color: getColor("accent");
+      transition: color $tns-time $tns-func;
+    }
   }
 }
 

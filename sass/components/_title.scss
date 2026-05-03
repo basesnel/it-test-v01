@@ -47,8 +47,11 @@
 
     &:hover,
     &:focus {
-      color: getColor("accent");
-      transition: color $tns-time $tns-func;
+      background-color: getColor("background");
+      color: getColor("foregroundSixth");
+      transition:
+        color $tns-time $tns-func,
+        background-color $tns-time $tns-func;
     }
   }
 }
