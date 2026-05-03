@@ -15,7 +15,8 @@
     font-weight: 700;
     background-color: getColor("background");
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: getColor("accent");
       transition: color $tns-time $tns-func;
     }
@@ -43,5 +44,11 @@
     letter-spacing: 0;
     background-color: getColor("buttonBackground");
     color: getColor("background");
+
+    &:hover,
+    &:focus {
+      color: getColor("accent");
+      transition: color $tns-time $tns-func;
+    }
   }
 }

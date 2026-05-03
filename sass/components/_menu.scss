@@ -12,7 +12,8 @@
       color: getColor("background");
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: getColor("accent");
       transition: color $tns-time $tns-func;
     }
@@ -30,7 +31,8 @@
   }
 }
 
-.menu__link--option:hover {
+.menu__link--option:hover,
+.menu__link--option:focus {
   background-color: getColor("background");
   transition: background-color $tns-time $tns-func;
 }

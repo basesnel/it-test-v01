@@ -36,13 +36,32 @@
   }
 
   &__link {
-    display: block;
+    display: flex;
+    gap: 4px;
+    align-items: center;
     padding: 12px;
     border-radius: 200px;
     line-height: 1.4;
     background-color: getColor("background");
 
-    &:hover {
+    &--r::before {
+      content: "🚀";
+    }
+
+    &--s::before {
+      content: "🛰️";
+    }
+
+    &--m::before {
+      content: "🧪";
+    }
+
+    &--a::before {
+      content: "🌌";
+    }
+
+    &:hover,
+    &:focus {
       color: getColor("accent");
       transition: color $tns-time $tns-func;
     }

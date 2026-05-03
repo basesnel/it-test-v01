@@ -1,0 +1,51 @@
+$colors: (
+  "background": #fff,
+  "foregroundFirst": rgba(228, 223, 255, 1),
+  "foregroundSecond": rgba(247, 247, 249, 1),
+  "foregroundThird": rgba(17, 18, 23, 1),
+  "foregroundFourth": rgba(247, 247, 249, 1),
+  "foregroundFifth": rgba(124, 96, 233, 1),
+  "foregroundSixth": rgba(124, 89, 242, 1),
+  "foregroundSeventh": rgba(255, 223, 81, 1),
+  "foregraundsocials": rgba(63, 75, 94, 1),
+  "borderstep": rgba(255, 255, 255, 0.4),
+  "textDark": rgba(29, 29, 29, 1),
+  "textBlack": rgba(0, 0, 0, 1),
+  "greenButton": rgba(190, 245, 65, 1),
+  "textSecondary": rgba(63, 75, 94, 1),
+  "textThird": rgba(102, 102, 102, 1),
+  "buttonBackground": rgba(17, 18, 23, 1),
+  "borderBottom": rgba(0, 0, 0, 0.1),
+  "textLight": #9da4bd,
+  "titleDark": #303030,
+  "titleLightPoor": rgb(157, 164, 189),
+  "titleLight": rgba(157, 164, 189, 0.6),
+  "accent": rgba(72, 80, 236, 1),
+  "active": rgba(255, 108, 0, 0.5),
+  "visited": rgba(85, 85, 85, 0.32),
+  "elemForm": rgba(157, 164, 189, 0.4),
+  "lineColor": rgba(157, 164, 189, 0.12),
+  "servicesOddGradient": linear-gradient(
+      180deg,
+      #171a24 0%,
+      rgba(23, 26, 36, 0.2) 100%
+    ),
+  "servicesEvendGradient": linear-gradient(
+      180deg,
+      rgb(9, 11, 19),
+      rgba(9, 11, 19, 0.2) 100%
+    ),
+  "transparent": rgba(0, 0, 0, 0),
+  "sliderOverlay": rgba(25, 28, 38, 0.2),
+  "elemFormInverted": rgba(98, 91, 66, 0.88),
+  "box-shadow1": rgba(0, 0, 0, 0.12),
+  "box-shadow2": rgba(0, 0, 0, 0.14),
+  "box-shadow3": rgba(0, 0, 0, 0.2),
+  // 'info': #6c6cff,
+  "invalid": #ff6c6c,
+  "valid": #6cff6c,
+);
+
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
