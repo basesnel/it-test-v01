@@ -536,4 +536,37 @@ img {
 .gallery__list {
   display: flex;
   justify-content: space-between;
+}
+
+.faq__title {
+  margin-bottom: 72px;
+  font-size: 50px;
+  line-height: 1.2;
+}
+.faq__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  padding: 16px 36px;
+  font-size: 20px;
+  line-height: 1.2;
+  background-color: rgb(247, 247, 249);
+}
+.faq__item:last-child {
+  margin-bottom: 0;
+}
+.faq__button {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.faq__icon {
+  width: 12px;
+  height: 12px;
 }/*# sourceMappingURL=main.css.map */
